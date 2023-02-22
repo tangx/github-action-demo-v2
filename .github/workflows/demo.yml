@@ -8,6 +8,7 @@ on:
 jobs:
 
   build:
+    permissions: write-all
     name: Build Binary
     runs-on: macos-latest
     steps:
